@@ -4,10 +4,14 @@
 <body>
 <form action="" method="post">
     <fieldset>
-    <legend>LOGIN:</legend>
+    <legend>SIGN UP:</legend>
     User Name:<br>
-    <input type="text" name="firstname""> <br>
+    <input type="text" name="firstname"> <br>
+    Email Adress:<br>
+    <input type="email" name="email"> <br>
     Password:<br>
+    <input type="password" name="password" ><br>
+    Confirm Password:<br>
     <input type="password" name="password" ><br><br>
     <input type="submit" value="Submit">
     </fieldset>
